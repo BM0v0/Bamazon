@@ -12,5 +12,21 @@ CREATE TABLE products (
     PRIMARY KEY (id)
 );
 
+
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("Roomba", "electronics", 199.99, 80);
+VALUES ("Yamaha HS8", "Studio Monitors", 349.99, 8);
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("Martin Guitar", "Musical Instruments", 550.00, 3);
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("Korg Keyboard", "MIDI keys", 79.99, 30);
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("Shure SM57", "Microphones", 99.99, 20);
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("Focusrite 18i8", "Interfaces", 349.99, 15);
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("Cascade Fat Head II", "Microphones", 400.00, 2);		      
